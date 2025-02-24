@@ -18,7 +18,7 @@ import card3 from "../assets/uiux.png";
     <h2 class="cream-tua justify-self-center text-sm lg:text-base" id="dm-sans">
       Here are some of my works
     </h2>
-    <div class="grid grid-cols-3 gap-1 md:gap-3 mt-10 justify-self-center" id="dm-sans">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-3 mt-10 justify-self-center" id="dm-sans">
       <PortfoCard
         :image="card1"
         title="Programming"

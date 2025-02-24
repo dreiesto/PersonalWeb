@@ -7,16 +7,23 @@ import card4 from "../assets/logo-uiux.png";
 </script>
 
 <template>
-  <div
-    class="grid pt-5 pb-10 rounded-xl"
-    id="bg-cream-tua"
-  >
-    <h1 class="flex justify-center text-base lg:text-xl font-bold" id="playfair-display">
+  <div class="grid pt-5 pb-10 rounded-xl" id="bg-cream-tua">
+    <h1
+      class="justify-self-center text-base lg:text-xl font-bold"
+      id="playfair-display"
+    >
       My Competencies
     </h1>
-    <h2 class="flex justify-center text-sm lg:text-base" id="dm-sans">
-      I have several competencies that I can offer to you</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-3 mt-10 cream-muda justify-self-center" id="dm-sans">
+    <h2
+      class="justify-self-center text-center max-w-[250px] text-sm lg:text-base"
+      id="dm-sans"
+    >
+      I have several competencies that I can offer to you
+    </h2>
+    <div
+      class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-1.5 sm:gap-3 mt-10 cream-muda justify-self-center"
+      id="dm-sans"
+    >
       <SkillCard
         :image="card1"
         title="Web Programming"
